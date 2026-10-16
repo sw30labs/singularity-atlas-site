@@ -65,9 +65,6 @@
     "briefs": 43,
     "edges": 7104
   },
-  "llm": {
-    "available": false
-  },
   "brief": {
     "date": "2026-10-07",
     "model": "heuristic",

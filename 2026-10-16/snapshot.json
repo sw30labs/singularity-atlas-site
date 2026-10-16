@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-16T13:22:25.974210+00:00",
-  "generated_et": "2026-10-16 09:22 EDT",
+  "generated_utc": "2026-10-16T13:33:34.992858+00:00",
+  "generated_et": "2026-10-16 09:33 EDT",
   "si": 59.3,
   "epoch": "Point of Inflexion",
   "n_stories_24h": 75,
@@ -65,9 +65,6 @@
     "briefs": 49,
     "edges": 7756
   },
-  "llm": {
-    "available": false
-  },
   "brief": {
     "date": "2026-10-16",
     "model": "heuristic",
@@ -79,92 +76,92 @@
     "verge-ai": {
       "ok": true,
       "items": 10,
-      "last_fetch": "2026-10-16T13:15:10.014027+00:00",
+      "last_fetch": "2026-10-16T13:30:09.854437+00:00",
       "error": null
     },
     "arxiv-cs-lg": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-10-16T13:15:10.036436+00:00",
+      "last_fetch": "2026-10-16T13:30:09.915406+00:00",
       "error": null
     },
     "arxiv-cs-ai": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-10-16T13:15:09.940636+00:00",
+      "last_fetch": "2026-10-16T13:30:09.897318+00:00",
       "error": null
     },
     "launches": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-10-16T13:15:10.121387+00:00",
+      "last_fetch": "2026-10-16T13:30:09.929088+00:00",
       "error": null
     },
     "ars": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-10-16T13:15:10.114130+00:00",
+      "last_fetch": "2026-10-16T13:30:09.809977+00:00",
       "error": null
     },
     "arxiv-cs-cl": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-10-16T13:15:09.962063+00:00",
+      "last_fetch": "2026-10-16T13:30:09.868294+00:00",
       "error": null
     },
     "mit-tr-ai": {
       "ok": true,
       "items": 10,
-      "last_fetch": "2026-10-16T13:15:09.893152+00:00",
+      "last_fetch": "2026-10-16T13:30:09.741736+00:00",
       "error": null
     },
     "interconnects": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-10-16T13:15:10.497682+00:00",
+      "last_fetch": "2026-10-16T13:30:10.405600+00:00",
       "error": null
     },
     "import-ai": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-10-16T13:15:10.293173+00:00",
+      "last_fetch": "2026-10-16T13:30:11.170470+00:00",
       "error": null
     },
     "openai": {
       "ok": true,
       "items": 25,
-      "last_fetch": "2026-10-16T13:15:11.155050+00:00",
+      "last_fetch": "2026-10-16T13:30:11.017415+00:00",
       "error": null
     },
     "deepmind": {
       "ok": true,
       "items": 25,
-      "last_fetch": "2026-10-16T13:15:11.274099+00:00",
+      "last_fetch": "2026-10-16T13:30:11.043499+00:00",
       "error": null
     },
     "venturebeat-ai": {
       "ok": false,
       "items": 0,
-      "last_fetch": "2026-10-16T13:15:09.942345+00:00",
+      "last_fetch": "2026-10-16T13:30:09.921051+00:00",
       "error": "temporarily unavailable"
     },
     "arxiv-cs-ro": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-10-16T13:15:10.068843+00:00",
+      "last_fetch": "2026-10-16T13:30:09.882366+00:00",
       "error": null
     },
     "hn-ai": {
       "ok": true,
       "items": 71,
-      "last_fetch": "2026-10-16T13:15:13.309644+00:00",
+      "last_fetch": "2026-10-16T13:30:20.119242+00:00",
       "error": null
     },
     "gdelt-ai": {
-      "ok": false,
-      "items": 0,
-      "last_fetch": "2026-10-16T13:15:41.196803+00:00",
-      "error": "temporarily unavailable"
+      "ok": true,
+      "items": 40,
+      "last_fetch": "2026-10-16T13:30:35.467276+00:00",
+      "error": null
     }
   },
   "convergence": [
@@ -317,15 +314,14 @@
   ],
   "last_ingest": {
     "stats": {
-      "fetched": 269,
+      "fetched": 309,
       "new": 0,
       "persisted": 0
     },
     "si": 59.3,
     "brief_model": null,
     "errors": [
-      "venturebeat-ai: temporarily unavailable",
-      "gdelt-ai: temporarily unavailable"
+      "venturebeat-ai: temporarily unavailable"
     ]
   }
 }
