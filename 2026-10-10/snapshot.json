@@ -66,9 +66,7 @@
     "edges": 7323
   },
   "llm": {
-    "available": false,
-    "preferred": "qwen3.8:27b-mtp-bf16",
-    "active": null
+    "available": false
   },
   "brief": {
     "date": "2026-10-10",

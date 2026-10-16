@@ -1,89 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Singularity Atlas · last 24h</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --paper: #f5f5f5; --ink: #2d3142; --muted: #4f5d75; --accent: #eb6c36;
-      --sans: 'Geist', system-ui, sans-serif; --serif: 'Instrument Serif', serif;
-      --mono: 'Geist Mono', ui-monospace, monospace;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: var(--sans); background: var(--paper); color: var(--ink); line-height: 1.5; }
-    header { padding: 2.5rem 1.5rem 1.5rem; max-width: 1080px; margin: 0 auto; }
-    .eyebrow { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
-    h1 { font-family: var(--serif); font-size: 2.4rem; font-weight: 400; margin: 0.35rem 0 0.5rem; }
-    .lede { color: var(--muted); max-width: 42rem; }
-    .meta { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); margin-top: 0.75rem; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    main { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem 4rem; }
-    .hero { display: grid; grid-template-columns: 180px 1fr; gap: 1.5rem; align-items: center; margin: 1.5rem 0 2rem; }
-    .si { font-family: var(--serif); font-size: 5rem; line-height: 0.9; color: var(--accent); }
-    .si small { display: block; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-top: 0.4rem; }
-    .vecs { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.4rem 1rem; }
-    .vec { display: flex; gap: 0.5rem; align-items: baseline; font-size: 0.92rem; }
-    .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
-    .vlabel { flex: 1; }
-    .vscore { font-family: var(--mono); }
-    .board { width: 100%; border: 1px solid rgba(45,49,66,0.12); margin: 1.5rem 0; background: #fff; }
-    .grid { display: grid; grid-template-columns: 1.4fr 0.8fr; gap: 2rem; }
-    h2 { font-family: var(--serif); font-size: 1.4rem; font-weight: 400; margin: 1.2rem 0 0.6rem; }
-    .brief p { margin: 0.7rem 0; }
-    .muted { color: var(--muted); font-size: 0.85rem; }
-    ul { list-style: none; }
-    li { margin: 0.25rem 0; }
-    li.fail { color: var(--accent); }
-    footer { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem 3rem; color: var(--muted); font-size: 0.85rem; }
-    @media (max-width: 720px) { .hero, .grid { grid-template-columns: 1fr; } .si { font-size: 3.5rem; } }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Singularity Atlas</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+<script src="/vendor/globe.gl.min.js"></script>
+<script src="/static-shim.js"></script>
 </head>
 <body>
-  <header>
-    <div class="eyebrow">Public 24h snapshot · not the live globe</div>
-    <h1>The Singularity Atlas</h1>
-    <p class="lede">Yesterday's board. The live dashboard stays on the machine that runs it. This page is replaced at least daily.</p>
-    <p class="meta">Captured 2026-10-16 09:05 EDT · 75 stories in 24h · graph 2686 stories / 153 entities · brief heuristic</p>
-  </header>
-  <main>
-    <div class="hero">
-      <div>
-        <div class="si">59.3<small>Point of Inflexion · /100</small></div>
+
+<header id="topbar">
+  <div class="brand">
+    <div class="logo-row">
+      <button id="lobster" class="glyph-btn" title="uploads · after Accelerando" aria-label="the uploaded lobsters">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <defs>
+            <linearGradient id="atlas-lobster-fill" x1="4" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#ff4d4d"/>
+              <stop offset="1" stop-color="#8a1024"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#atlas-lobster-fill)" d="M12 2.6C7.4 2.6 4.2 6.6 4.2 10.8c0 3.7 2.5 7.4 5.2 8.5V21h2.1v-1.5c.2.15 1.1.4 2.1 0V21h2.1v-1.7c2.7-1.1 5.2-4.8 5.2-8.5C19.8 6.6 16.6 2.6 12 2.6z"/>
+          <path fill="url(#atlas-lobster-fill)" d="M5.4 9.1C2.6 8.3 1.5 10.4 2.6 12.5c1 1.9 2.8 1.1 3.7-.7.5-1.2 0-1.9-.9-2.7z"/>
+          <path fill="url(#atlas-lobster-fill)" d="M18.6 9.1c2.8-.8 3.9 1.3 2.8 3.4-1 1.9-2.8 1.1-3.7-.7-.5-1.2 0-1.9.9-2.7z"/>
+          <path d="M9.3 4.2Q7.4 2.2 6.5 2.8" fill="none" stroke="#ff4d4d" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M14.7 4.2Q16.6 2.2 17.5 2.8" fill="none" stroke="#ff4d4d" stroke-width="1.4" stroke-linecap="round"/>
+          <circle cx="9.3" cy="8.5" r="1.55" fill="#050810"/>
+          <circle cx="14.7" cy="8.5" r="1.55" fill="#050810"/>
+          <circle cx="9.6" cy="8.2" r="0.55" fill="#00e5ff"/>
+          <circle cx="15" cy="8.2" r="0.55" fill="#00e5ff"/>
+        </svg>
+      </button>
+      <div class="logo">SINGULARITY&nbsp;ATLAS</div>
+    </div>
+    <div class="tagline">THE&nbsp;INNERMOST&nbsp;LOOP,&nbsp;MAPPED</div>
+  </div>
+
+  <div id="quote" class="quote"><span id="quote-text">The innermost loop is always the fastest.</span><span id="quote-src"></span></div>
+
+  <div class="header-right">
+    <div class="si-block" title="Singularity Index — composite proximity score">
+      <svg id="si-gauge" viewBox="0 0 120 70" width="150" height="88">
+        <path d="M 10 62 A 50 50 0 0 1 110 62" fill="none" stroke="#16202a" stroke-width="7"/>
+        <path id="si-arc" d="M 10 62 A 50 50 0 0 1 110 62" fill="none" stroke="#00e5ff"
+              stroke-width="7" stroke-linecap="round" stroke-dasharray="157" stroke-dashoffset="157"/>
+        <text id="si-value" x="60" y="52" text-anchor="middle" class="si-value">—</text>
+        <text id="si-delta" x="60" y="66" text-anchor="middle" class="si-delta"></text>
+      </svg>
+      <div class="si-label">SINGULARITY&nbsp;INDEX</div>
+    </div>
+
+    <div class="epoch-block" title="Stross epoch dial — where we are on the Accelerando timeline">
+      <div id="epoch-dial" class="epoch-dial">
+        <div class="epoch-seg" data-epoch="0"><span>SLOW&nbsp;TAKEOFF</span></div>
+        <div class="epoch-seg" data-epoch="1"><span>POINT&nbsp;OF&nbsp;INFLEXION</span></div>
+        <div class="epoch-seg" data-epoch="2"><span>SINGULARITY</span></div>
+        <div id="epoch-marker" class="epoch-marker"></div>
       </div>
-      <div class="vecs"><div class="vec"><span class="dot" style="background:#00e5ff"></span><span class="vlabel">Capability</span><span class="vscore">70.7</span></div><div class="vec"><span class="dot" style="background:#ff6d00"></span><span class="vlabel">Compute</span><span class="vscore">33.6</span></div><div class="vec"><span class="dot" style="background:#ffd600"></span><span class="vlabel">Capital</span><span class="vscore">49.4</span></div><div class="vec"><span class="dot" style="background:#00e676"></span><span class="vlabel">Embodiment</span><span class="vscore">52.8</span></div><div class="vec"><span class="dot" style="background:#d500f9"></span><span class="vlabel">Agency</span><span class="vscore">70.8</span></div><div class="vec"><span class="dot" style="background:#ff1744"></span><span class="vlabel">Security</span><span class="vscore">20.4</span></div><div class="vec"><span class="dot" style="background:#2979ff"></span><span class="vlabel">Space</span><span class="vscore">72.0</span></div><div class="vec"><span class="dot" style="background:#ffab91"></span><span class="vlabel">Culture</span><span class="vscore">59.8</span></div></div>
+      <div class="epoch-sub"><span id="epoch-name">—</span> · <span id="countdown">— days to 2045</span></div>
     </div>
-    <img class="board" src="board.png" alt="The Singularity Atlas dashboard, last capture" />
-    <div class="grid">
-      <section class="brief">
-        <h2>The Daily Loop</h2>
-        <h2>Welcome to October 16, 2026</h2>
-<p>The Singularity Index reads <strong>59.3/100</strong> — Point of Inflexion. 6651 days to 2045-01-01. 75 signals crossed the wire in the last cycle.</p>
-<p><a href="https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs">ChatGPT can peek at your Chrome tabs now</a> — *The Verge AI* · embodiment, capital, culture</p>
-<p><a href="https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad">How Windows is being optimized for Nvidia’s RTX Spark laptops</a> — *The Verge AI* · space, compute, capital, culture</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/bf2c3027-a314-403e-a416-2bfd5d165ad1/">Falcon 9 Block 5 | Dragon CRS-2 SpX-35 — SpaceX</a> — *Launch Library* · space</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/">Atlas V N22 | Starliner-1 — United Launch Alliance</a> — *Launch Library* · embodiment, space</p>
-<p><a href="https://arxiv.org/abs/2610.22340v1">Dexterity from Supervised Play</a> — *arXiv cs.AI* · capability, embodiment, agency</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/">Falcon 9 Block 5 | Cygnus CRS-2 NG-25 — SpaceX</a> — *Launch Library* · space</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/e2886a96-5ce9-4f45-872f-4e25a00be837/">Falcon 9 Block 5 | Starlink Group 15-16 — SpaceX</a> — *Launch Library* · space</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/f6af629d-39b5-4f86-bc0c-f8776444a858/">Falcon 9 Block 5 | Starlink Group 15-15 — SpaceX</a> — *Launch Library* · space</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/">Falcon Heavy | Griffin Mission One — SpaceX</a> — *Launch Library* · space</p>
-<p><a href="https://ll.thespacedevs.com/2.2.0/launch/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff/">Electron | The Sea God Surveys (iQPS Launch 9) — Rocket Lab</a> — *Launch Library* · culture, space</p>
-<p>*Heuristic edition — local LLM offline.*</p>
-      </section>
-      <aside>
-        <h2>Crossing streams</h2>
-        <ul><li><strong>Google</strong> <span class="muted">embodiment, capital, culture, capability, agency, space</span></li><li><strong>Anthropic</strong> <span class="muted">culture, agency, compute, capital, capability, security</span></li><li><strong>OpenAI</strong> <span class="muted">agency, capability, embodiment, capital, culture</span></li><li><strong>ChatGPT</strong> <span class="muted">embodiment, capital, culture, agency, capability</span></li><li><strong>NVIDIA</strong> <span class="muted">space, compute, capital, culture</span></li><li><strong>Microsoft</strong> <span class="muted">space, compute, capital, culture</span></li><li><strong>Atlas</strong> <span class="muted">embodiment, capital, culture, space</span></li><li><strong>San Francisco</strong> <span class="muted">space, compute, capital, culture</span></li><li><strong>Meta</strong> <span class="muted">culture, capital, agency</span></li><li><strong>World Models</strong> <span class="muted">agency, capability, embodiment</span></li><li><strong>Gemini</strong> <span class="muted">capability, capital, culture</span></li><li><strong>Apple</strong> <span class="muted">culture, capital, agency</span></li></ul>
-        <h2>Feeds 13/15</h2>
-        <ul><li class="ok"><code>verge-ai</code> 10 items</li><li class="ok"><code>arxiv-cs-lg</code> 12 items</li><li class="ok"><code>arxiv-cs-ai</code> 12 items</li><li class="ok"><code>launches</code> 20 items</li><li class="ok"><code>ars</code> 20 items</li><li class="ok"><code>arxiv-cs-cl</code> 12 items</li><li class="ok"><code>mit-tr-ai</code> 10 items</li><li class="ok"><code>interconnects</code> 20 items</li><li class="ok"><code>import-ai</code> 20 items</li><li class="ok"><code>openai</code> 25 items</li><li class="ok"><code>deepmind</code> 25 items</li><li class="fail"><code>venturebeat-ai</code> 0 items · temporarily unavailable</li><li class="ok"><code>arxiv-cs-ro</code> 12 items</li><li class="ok"><code>hn-ai</code> 71 items</li><li class="fail"><code>gdelt-ai</code> 0 items · temporarily unavailable</li></ul>
-      </aside>
+
+    <div class="clock-block">
+      <div>
+        <div id="clock" class="clock">--:--:--</div>
+        <div class="clock-label">UTC</div>
+      </div>
+      <div id="aineko" class="aineko" title="Aineko · idle" role="status" aria-live="polite">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path class="tail" d="M5 18c-2.8-1.2-3.2-6 1-6.2"/>
+          <path d="M7 21c0-5 3.4-8 6.4-8h.4V21z"/>
+          <path d="M13.4 21V13c3.2 0 6 2.4 6 8z"/>
+          <circle cx="17.4" cy="10" r="3.2"/>
+          <path d="M14.8 8.4L15.5 5.2l1.7 3"/>
+          <path d="M17.8 8l1.9-3.4 1 3.6"/>
+          <g class="idle-eyes">
+            <path d="M16 10.2h1.1M18.2 10.2h1.1"/>
+          </g>
+          <g class="watch-eyes">
+            <circle cx="16.4" cy="10.1" r="0.7" fill="currentColor" stroke="none"/>
+            <circle cx="18.6" cy="10.1" r="0.7" fill="currentColor" stroke="none"/>
+          </g>
+        </svg>
+        <span class="aineko-label">IDLE</span>
+      </div>
     </div>
-  </main>
-  <footer>
-    <p><a href="https://github.com/sw30labs/.github/wiki/singularity-atlas">Wiki</a> · <a href="https://github.com/sw30labs/singularity-atlas">Repo</a> · local live is <code>http://localhost:8055</code>. Code Apache-2.0. This snapshot is public feeds plus the on-machine brief. It does not ship the Innermost Loop corpus or <code>ref/</code>.</p>
-  </footer>
+  </div>
+</header>
+
+<main id="layout">
+
+  <aside id="left">
+    <div class="panel-col" id="vector-panels"></div>
+  </aside>
+
+  <section id="center">
+    <div id="globe-wrap">
+      <div id="globe"></div>
+      <div id="globe-overlay">
+        <div class="layer-toggles">
+          <label><input type="checkbox" data-layer="datacenter" checked> <i style="--c:#ff6d00"></i>DATACENTERS</label>
+          <label><input type="checkbox" data-layer="fab" checked> <i style="--c:#ffd600"></i>FABS</label>
+          <label><input type="checkbox" data-layer="lab" checked> <i style="--c:#00e5ff"></i>LABS</label>
+          <label><input type="checkbox" data-layer="launch" checked> <i style="--c:#ffffff"></i>LAUNCHES</label>
+          <label><input type="checkbox" data-layer="events" checked> <i style="--c:#00e676"></i>SIGNALS</label>
+          <label><input type="checkbox" data-layer="arcs" checked> <i style="--c:#d500f9"></i>FLOWS</label>
+        </div>
+        <div id="globe-stats" class="globe-stats"></div>
+      </div>
+      <div id="si-spark-wrap"><svg id="si-spark" preserveAspectRatio="none"></svg></div>
+    </div>
+  </section>
+
+  <aside id="right">
+    <div class="panel" id="brief-panel">
+      <div class="panel-head">
+        <span class="panel-title">THE DAILY LOOP</span>
+        <span class="panel-meta" id="brief-meta"></span>
+      </div>
+      <div class="panel-body brief-body" id="brief-body">
+        <div class="loading">synthesizing…</div>
+      </div>
+    </div>
+
+    <div class="panel" id="convergence-panel">
+      <div class="panel-head"><span class="panel-title">CONVERGENCE RADAR</span>
+        <span class="panel-meta">entities crossing streams · 72h</span></div>
+      <div class="panel-body" id="convergence-body"></div>
+    </div>
+
+    <div class="panel" id="archive-panel">
+      <div class="panel-head"><span class="panel-title">THE INNERMOST LOOP</span>
+        <span class="panel-meta">218 editions</span></div>
+      <div class="panel-body">
+        <div id="on-this-date"></div>
+        <div class="archive-search">
+          <input id="archive-q" type="text" placeholder="search the archive on Substack…" autocomplete="off">
+        </div>
+        <div id="archive-hits"></div>
+      </div>
+    </div>
+  </aside>
+
+</main>
+
+<footer id="ticker-wrap"><div id="ticker"></div></footer>
+
+<div id="drawer" class="drawer hidden">
+  <div class="drawer-head">
+    <span id="drawer-title"></span>
+    <button id="drawer-close" aria-label="close">×</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</div>
+
+<script src="/app.js"></script>
 </body>
 </html>
