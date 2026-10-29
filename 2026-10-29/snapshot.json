@@ -1,0 +1,324 @@
+{
+  "generated_utc": "2026-10-29T11:00:06.633486+00:00",
+  "generated_et": "2026-10-29 07:00 EDT",
+  "si": 41.1,
+  "epoch": "Point of Inflexion",
+  "n_stories_24h": 48,
+  "countdown": {
+    "days": 6638,
+    "years": 18.17,
+    "target": "2045-01-01"
+  },
+  "vectors": {
+    "capability": {
+      "label": "Capability",
+      "score": 49.1,
+      "blurb": "Frontier models, benchmarks, reasoning",
+      "color": "#00e5ff"
+    },
+    "compute": {
+      "label": "Compute",
+      "score": 21.2,
+      "blurb": "Chips, fabs, datacenters, energy",
+      "color": "#ff6d00"
+    },
+    "capital": {
+      "label": "Capital",
+      "score": 49.9,
+      "blurb": "Funding, valuations, revenue, M&A",
+      "color": "#ffd600"
+    },
+    "embodiment": {
+      "label": "Embodiment",
+      "score": 9.1,
+      "blurb": "Robots, humanoids, drones, autonomy",
+      "color": "#00e676"
+    },
+    "agency": {
+      "label": "Agency",
+      "score": 39.0,
+      "blurb": "Agents, tool use, open weights, self-improvement",
+      "color": "#d500f9"
+    },
+    "security": {
+      "label": "Security",
+      "score": 0.0,
+      "blurb": "Safety, alignment, cyber, regulation",
+      "color": "#ff1744"
+    },
+    "space": {
+      "label": "Space",
+      "score": 72.4,
+      "blurb": "Launches, orbital compute, the frontier up",
+      "color": "#2979ff"
+    },
+    "culture": {
+      "label": "Culture",
+      "score": 57.2,
+      "blurb": "Society metabolizing the change",
+      "color": "#ffab91"
+    }
+  },
+  "graph": {
+    "stories": 3416,
+    "entities": 155,
+    "briefs": 62,
+    "edges": 9462
+  },
+  "brief": {
+    "date": "2026-10-29",
+    "model": "heuristic",
+    "n_items": 14,
+    "text": "# Welcome to October 29, 2026\n\nThe Singularity Index reads **40.8/100** \u2014 Point of Inflexion. 6638 days to 2045-01-01. 48 signals crossed the wire in the last cycle.\n\n[Google launches Gemini 4 Carbon with a \u2018significant leap\u2019 in cybersecurity](https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier) \u2014 *The Verge AI* \u00b7 capability, capital, culture, agency\n\n[Falcon 9 Block 5 | USSF-432 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | Dragon CRS-2 SpX-35 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/bf2c3027-a314-403e-a416-2bfd5d165ad1/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-xxx (\"R-5\") \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/) \u2014 *Launch Library* \u00b7 space\n\n[Atlas V N22 | Starliner-1 \u2014 United Launch Alliance](https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/) \u2014 *Launch Library* \u00b7 embodiment, space\n\n[Falcon Heavy | Griffin Mission One \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | Starlink Group 15-21 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/3cdb9dee-b5cb-406c-bbd1-06a219930fb7/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | Starlink Group 15-18 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/57ce0a39-d035-4f16-a418-bd6108f78199/) \u2014 *Launch Library* \u00b7 space\n\n[Electron | The Mountain God Rises (iQPS Launch 10) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/db3500ac-965b-4ad8-b417-cb8d8d005586/) \u2014 *Launch Library* \u00b7 space, culture\n\n\n*Heuristic edition \u2014 local LLM offline.*",
+    "created_at": "2026-10-29T00:00:52.839637+00:00"
+  },
+  "feeds": {
+    "verge-ai": {
+      "ok": true,
+      "items": 10,
+      "last_fetch": "2026-10-29T10:45:09.613473+00:00",
+      "error": null
+    },
+    "arxiv-cs-lg": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-10-29T10:45:09.271502+00:00",
+      "error": null
+    },
+    "arxiv-cs-ai": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-10-29T10:45:09.334882+00:00",
+      "error": null
+    },
+    "launches": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-10-29T10:45:09.630674+00:00",
+      "error": null
+    },
+    "ars": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-10-29T10:45:09.561534+00:00",
+      "error": null
+    },
+    "arxiv-cs-cl": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-10-29T10:45:09.286782+00:00",
+      "error": null
+    },
+    "mit-tr-ai": {
+      "ok": true,
+      "items": 10,
+      "last_fetch": "2026-10-29T10:45:09.253804+00:00",
+      "error": null
+    },
+    "interconnects": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-10-29T10:45:10.220456+00:00",
+      "error": null
+    },
+    "import-ai": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-10-29T10:45:09.517857+00:00",
+      "error": null
+    },
+    "openai": {
+      "ok": true,
+      "items": 25,
+      "last_fetch": "2026-10-29T10:45:10.038796+00:00",
+      "error": null
+    },
+    "deepmind": {
+      "ok": true,
+      "items": 25,
+      "last_fetch": "2026-10-29T10:45:09.371187+00:00",
+      "error": null
+    },
+    "venturebeat-ai": {
+      "ok": false,
+      "items": 0,
+      "last_fetch": "2026-10-29T10:45:09.308215+00:00",
+      "error": "temporarily unavailable"
+    },
+    "arxiv-cs-ro": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-10-29T10:45:09.321028+00:00",
+      "error": null
+    },
+    "hn-ai": {
+      "ok": true,
+      "items": 71,
+      "last_fetch": "2026-10-29T10:45:14.811017+00:00",
+      "error": null
+    },
+    "gdelt-ai": {
+      "ok": false,
+      "items": 0,
+      "last_fetch": "2026-10-29T10:45:40.231005+00:00",
+      "error": "temporarily unavailable"
+    }
+  },
+  "convergence": [
+    {
+      "name": "OpenAI",
+      "type": "org",
+      "vecs": [
+        "agency",
+        "culture",
+        "capability",
+        "capital",
+        "security"
+      ],
+      "stories": 16,
+      "heat": 95.54299999999995
+    },
+    {
+      "name": "GPT-6",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "capital",
+        "culture",
+        "agency",
+        "embodiment"
+      ],
+      "stories": 5,
+      "heat": 42.13999999999999
+    },
+    {
+      "name": "Anthropic",
+      "type": "org",
+      "vecs": [
+        "culture",
+        "capital",
+        "compute",
+        "capability",
+        "agency"
+      ],
+      "stories": 6,
+      "heat": 38.752
+    },
+    {
+      "name": "Gemini",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "capital",
+        "culture",
+        "agency"
+      ],
+      "stories": 4,
+      "heat": 33.49799999999999
+    },
+    {
+      "name": "Google",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "capital",
+        "culture",
+        "agency"
+      ],
+      "stories": 3,
+      "heat": 31.09999999999999
+    },
+    {
+      "name": "Claude",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "capital",
+        "culture",
+        "agency"
+      ],
+      "stories": 2,
+      "heat": 22.975999999999996
+    },
+    {
+      "name": "World Models",
+      "type": "tech",
+      "vecs": [
+        "capability",
+        "agency",
+        "culture",
+        "capital"
+      ],
+      "stories": 3,
+      "heat": 16.463
+    },
+    {
+      "name": "Hugging Face",
+      "type": "org",
+      "vecs": [
+        "agency",
+        "culture",
+        "capability"
+      ],
+      "stories": 2,
+      "heat": 14.165000000000001
+    },
+    {
+      "name": "Llama",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "agency",
+        "culture"
+      ],
+      "stories": 2,
+      "heat": 13.289
+    },
+    {
+      "name": "xAI",
+      "type": "org",
+      "vecs": [
+        "culture",
+        "compute",
+        "capital"
+      ],
+      "stories": 1,
+      "heat": 8.499
+    },
+    {
+      "name": "Austin",
+      "type": "place",
+      "vecs": [
+        "culture",
+        "compute",
+        "capital"
+      ],
+      "stories": 1,
+      "heat": 8.499
+    },
+    {
+      "name": "Texas",
+      "type": "place",
+      "vecs": [
+        "culture",
+        "compute",
+        "capital"
+      ],
+      "stories": 1,
+      "heat": 8.499
+    }
+  ],
+  "last_ingest": {
+    "stats": {
+      "fetched": 269,
+      "new": 1,
+      "persisted": 1
+    },
+    "si": 41.1,
+    "brief_model": null,
+    "errors": [
+      "venturebeat-ai: temporarily unavailable",
+      "gdelt-ai: temporarily unavailable"
+    ]
+  }
+}
