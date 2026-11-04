@@ -1,167 +1,167 @@
 {
-  "generated_utc": "2026-11-03T12:01:04.439728+00:00",
-  "generated_et": "2026-11-03 07:01 EST",
-  "si": 56.9,
+  "generated_utc": "2026-11-04T12:00:12.766242+00:00",
+  "generated_et": "2026-11-04 07:00 EST",
+  "si": 40.5,
   "epoch": "Point of Inflexion",
-  "n_stories_24h": 77,
+  "n_stories_24h": 46,
   "countdown": {
-    "days": 6633,
+    "days": 6632,
     "years": 18.16,
     "target": "2045-01-01"
   },
   "vectors": {
     "capability": {
       "label": "Capability",
-      "score": 77.8,
+      "score": 40.7,
       "blurb": "Frontier models, benchmarks, reasoning",
       "color": "#00e5ff"
     },
     "compute": {
       "label": "Compute",
-      "score": 25.3,
+      "score": 20.1,
       "blurb": "Chips, fabs, datacenters, energy",
       "color": "#ff6d00"
     },
     "capital": {
       "label": "Capital",
-      "score": 30.0,
+      "score": 50.1,
       "blurb": "Funding, valuations, revenue, M&A",
       "color": "#ffd600"
     },
     "embodiment": {
       "label": "Embodiment",
-      "score": 50.9,
+      "score": 9.1,
       "blurb": "Robots, humanoids, drones, autonomy",
       "color": "#00e676"
     },
     "agency": {
       "label": "Agency",
-      "score": 74.4,
+      "score": 33.6,
       "blurb": "Agents, tool use, open weights, self-improvement",
       "color": "#d500f9"
     },
     "security": {
       "label": "Security",
-      "score": 27.4,
+      "score": 14.3,
       "blurb": "Safety, alignment, cyber, regulation",
       "color": "#ff1744"
     },
     "space": {
       "label": "Space",
-      "score": 68.9,
+      "score": 69.7,
       "blurb": "Launches, orbital compute, the frontier up",
       "color": "#2979ff"
     },
     "culture": {
       "label": "Culture",
-      "score": 49.1,
+      "score": 60.5,
       "blurb": "Society metabolizing the change",
       "color": "#ffab91"
     }
   },
   "graph": {
-    "stories": 3761,
+    "stories": 3781,
     "entities": 155,
-    "briefs": 67,
-    "edges": 10268
+    "briefs": 68,
+    "edges": 10331
   },
   "brief": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "model": "heuristic",
     "n_items": 14,
-    "text": "# Welcome to November 3, 2026\n\nThe Singularity Index reads **56.9/100** \u2014 Point of Inflexion. 6633 days to 2045-01-01. 77 signals crossed the wire in the last cycle.\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-xxx (\"R-5\") \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/) \u2014 *Launch Library* \u00b7 space\n\n[Atlas V N22 | Starliner-1 \u2014 United Launch Alliance](https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/) \u2014 *Launch Library* \u00b7 embodiment, space\n\n[Falcon Heavy | Griffin Mission One \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/) \u2014 *Launch Library* \u00b7 space\n\n[Electron | The Mountain God Rises (iQPS Launch 10) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/db3500ac-965b-4ad8-b417-cb8d8d005586/) \u2014 *Launch Library* \u00b7 space, culture\n\n[Electron | The Sea God Surveys (iQPS Launch 9) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff/) \u2014 *Launch Library* \u00b7 culture, space\n\n[Starship | Flight 15 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/0f867f0c-5422-4d44-93b8-d7faaae7019b/) \u2014 *Launch Library* \u00b7 space\n\n[Strategist: Evolving Reasoning with Agents](https://arxiv.org/abs/2611.03618v1) \u2014 *arXiv cs.AI* \u00b7 capability, agency\n\n[Falcon 9 Block 5 | OneWeb 21 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c/) \u2014 *Launch Library* \u00b7 space\n\n[Anthropic clamps down on Claude\u2019s AI video game clones](https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones) \u2014 *The Verge AI* \u00b7 capital, capability, culture\n\n\n*Heuristic edition \u2014 local LLM offline.*",
-    "created_at": "2026-11-03T12:01:03.760643+00:00"
+    "text": "# Welcome to November 4, 2026\n\nThe Singularity Index reads **40.5/100** \u2014 Point of Inflexion. 6632 days to 2045-01-01. 46 signals crossed the wire in the last cycle.\n\n[Falcon 9 Block 5 | USSF-317 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/76617033-4dc0-4448-b50c-e5b0d5a18539/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-627 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/) \u2014 *Launch Library* \u00b7 space\n\n[Atlas V N22 | Starliner-1 \u2014 United Launch Alliance](https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/) \u2014 *Launch Library* \u00b7 embodiment, space\n\n[Google is entirely disabling Search in schools that don\u2019t want AI](https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features) \u2014 *The Verge AI* \u00b7 culture, capability, capital\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon Heavy | Griffin Mission One \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/) \u2014 *Launch Library* \u00b7 space\n\n[Electron | The Mountain God Rises (iQPS Launch 10) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/db3500ac-965b-4ad8-b417-cb8d8d005586/) \u2014 *Launch Library* \u00b7 space, culture\n\n[Electron | The Sea God Surveys (iQPS Launch 9) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff/) \u2014 *Launch Library* \u00b7 culture, space\n\n[Starship | Flight 15 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/0f867f0c-5422-4d44-93b8-d7faaae7019b/) \u2014 *Launch Library* \u00b7 space\n\n[OpenAI says ChatGPT is catching up to Google in search](https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search) \u2014 *The Verge AI* \u00b7 capital, culture\n\n\n*Heuristic edition \u2014 local LLM offline.*",
+    "created_at": "2026-11-04T00:01:06.695536+00:00"
   },
   "feeds": {
     "verge-ai": {
       "ok": true,
       "items": 10,
-      "last_fetch": "2026-11-03T12:00:09.202209+00:00",
+      "last_fetch": "2026-11-04T12:00:09.817394+00:00",
       "error": null
     },
     "arxiv-cs-lg": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-03T12:00:09.308376+00:00",
+      "last_fetch": "2026-11-04T12:00:10.006146+00:00",
       "error": null
     },
     "arxiv-cs-ai": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-03T12:00:09.282107+00:00",
+      "last_fetch": "2026-11-04T12:00:09.985778+00:00",
       "error": null
     },
     "launches": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-03T12:00:25.746645+00:00",
+      "last_fetch": "2026-11-04T01:30:10.736271+00:00",
       "error": null
     },
     "ars": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-03T12:00:09.370808+00:00",
+      "last_fetch": "2026-11-04T12:00:10.718933+00:00",
       "error": null
     },
     "arxiv-cs-cl": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-03T12:00:09.253679+00:00",
+      "last_fetch": "2026-11-04T12:00:10.036857+00:00",
       "error": null
     },
     "mit-tr-ai": {
       "ok": true,
       "items": 10,
-      "last_fetch": "2026-11-03T12:00:09.123178+00:00",
+      "last_fetch": "2026-11-04T12:00:09.754635+00:00",
       "error": null
     },
     "interconnects": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-03T12:00:09.767302+00:00",
+      "last_fetch": "2026-11-04T12:00:11.320896+00:00",
       "error": null
     },
     "import-ai": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-03T12:00:09.987274+00:00",
+      "last_fetch": "2026-11-04T12:00:10.967889+00:00",
       "error": null
     },
     "openai": {
       "ok": true,
       "items": 25,
-      "last_fetch": "2026-11-03T12:00:10.776345+00:00",
+      "last_fetch": "2026-11-04T12:00:10.666784+00:00",
       "error": null
     },
     "deepmind": {
       "ok": true,
       "items": 25,
-      "last_fetch": "2026-11-03T12:00:10.973162+00:00",
+      "last_fetch": "2026-11-04T12:00:09.875223+00:00",
       "error": null
     },
     "venturebeat-ai": {
       "ok": false,
       "items": 0,
-      "last_fetch": "2026-11-03T12:00:09.283595+00:00",
+      "last_fetch": "2026-11-04T12:00:09.782045+00:00",
       "error": "temporarily unavailable"
     },
     "arxiv-cs-ro": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-03T12:00:09.221983+00:00",
+      "last_fetch": "2026-11-04T12:00:09.961580+00:00",
       "error": null
     },
     "hn-ai": {
-      "ok": false,
-      "items": 0,
-      "last_fetch": "2026-11-03T12:01:02.426251+00:00",
-      "error": "temporarily unavailable"
+      "ok": true,
+      "items": 71,
+      "last_fetch": "2026-11-04T01:30:24.427156+00:00",
+      "error": null
     },
     "gdelt-ai": {
-      "ok": true,
-      "items": 40,
-      "last_fetch": "2026-11-03T12:00:32.421605+00:00",
-      "error": null
+      "ok": false,
+      "items": 0,
+      "last_fetch": "2026-11-04T01:30:46.872277+00:00",
+      "error": "temporarily unavailable"
     }
   },
   "convergence": [
@@ -169,57 +169,42 @@
       "name": "OpenAI",
       "type": "org",
       "vecs": [
-        "capability",
         "agency",
+        "capability",
+        "capital",
+        "culture",
+        "compute",
         "security",
-        "culture",
-        "space",
-        "capital",
-        "compute"
+        "space"
       ],
-      "stories": 9,
-      "heat": 76.50699999999998
-    },
-    {
-      "name": "Anthropic",
-      "type": "org",
-      "vecs": [
-        "capital",
-        "capability",
-        "culture",
-        "agency",
-        "space",
-        "compute"
-      ],
-      "stories": 3,
-      "heat": 46.166999999999994
-    },
-    {
-      "name": "Google",
-      "type": "org",
-      "vecs": [
-        "agency",
-        "culture",
-        "space",
-        "capability",
-        "capital",
-        "compute"
-      ],
-      "stories": 2,
-      "heat": 38.043
+      "stories": 12,
+      "heat": 83.86699999999999
     },
     {
       "name": "SpaceX",
       "type": "org",
       "vecs": [
+        "space",
         "agency",
         "culture",
-        "space",
         "capability",
         "capital"
       ],
       "stories": 12,
-      "heat": 53.365
+      "heat": 53.471000000000004
+    },
+    {
+      "name": "Google",
+      "type": "org",
+      "vecs": [
+        "capital",
+        "culture",
+        "agency",
+        "capability",
+        "space"
+      ],
+      "stories": 4,
+      "heat": 44.91799999999999
     },
     {
       "name": "Claude",
@@ -235,97 +220,93 @@
       "heat": 31.313999999999993
     },
     {
-      "name": "Meta",
+      "name": "Anthropic",
       "type": "org",
       "vecs": [
-        "capability",
-        "agency",
-        "culture",
         "capital",
-        "compute"
+        "capability",
+        "culture",
+        "agency",
+        "space"
+      ],
+      "stories": 2,
+      "heat": 31.313999999999993
+    },
+    {
+      "name": "ChatGPT",
+      "type": "model",
+      "vecs": [
+        "agency",
+        "capability",
+        "capital",
+        "culture"
       ],
       "stories": 3,
-      "heat": 25.529000000000003
+      "heat": 15.281999999999998
     },
     {
-      "name": "Oracle",
-      "type": "org",
-      "vecs": [
-        "culture",
-        "capital",
-        "compute"
-      ],
-      "stories": 1,
-      "heat": 14.853000000000002
-    },
-    {
-      "name": "Figure AI",
-      "type": "org",
-      "vecs": [
-        "culture",
-        "capital",
-        "compute"
-      ],
-      "stories": 1,
-      "heat": 14.853000000000002
-    },
-    {
-      "name": "Phoenix",
+      "name": "New York",
       "type": "place",
       "vecs": [
         "culture",
-        "capital",
-        "compute"
+        "capability",
+        "capital"
+      ],
+      "stories": 2,
+      "heat": 13.957999999999998
+    },
+    {
+      "name": "Gemini",
+      "type": "model",
+      "vecs": [
+        "culture",
+        "capability",
+        "capital"
       ],
       "stories": 1,
-      "heat": 14.853000000000002
+      "heat": 8.988
     },
     {
       "name": "Microsoft",
       "type": "org",
       "vecs": [
         "culture",
-        "capital",
+        "security",
         "compute"
       ],
       "stories": 1,
-      "heat": 14.853000000000002
+      "heat": 7.455
     },
     {
-      "name": "Amazon",
+      "name": "Apple",
+      "type": "org",
+      "vecs": [
+        "capital",
+        "culture"
+      ],
+      "stories": 3,
+      "heat": 14.489999999999998
+    },
+    {
+      "name": "NASA",
+      "type": "org",
+      "vecs": [
+        "space",
+        "embodiment"
+      ],
+      "stories": 3,
+      "heat": 11.878
+    },
+    {
+      "name": "Rocket Lab",
       "type": "org",
       "vecs": [
         "culture",
-        "capital",
-        "compute"
+        "space"
       ],
-      "stories": 1,
-      "heat": 14.853000000000002
-    },
-    {
-      "name": "Arizona",
-      "type": "place",
-      "vecs": [
-        "culture",
-        "capital",
-        "compute"
-      ],
-      "stories": 1,
-      "heat": 14.853000000000002
+      "stories": 2,
+      "heat": 11.332
     }
   ],
-  "last_ingest": {
-    "stats": {
-      "fetched": 238,
-      "new": 46,
-      "persisted": 46,
-      "brief_date": "2026-11-03"
-    },
-    "si": 56.9,
-    "brief_model": "heuristic",
-    "errors": [
-      "venturebeat-ai: temporarily unavailable",
-      "hn-ai: temporarily unavailable"
-    ]
-  }
+  "last_ingest": null
 }
