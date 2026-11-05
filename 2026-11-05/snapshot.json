@@ -1,0 +1,324 @@
+{
+  "generated_utc": "2026-11-05T12:00:06.535603+00:00",
+  "generated_et": "2026-11-05 07:00 EST",
+  "si": 72.7,
+  "epoch": "Singularity",
+  "n_stories_24h": 132,
+  "countdown": {
+    "days": 6631,
+    "years": 18.15,
+    "target": "2045-01-01"
+  },
+  "vectors": {
+    "capability": {
+      "label": "Capability",
+      "score": 86.1,
+      "blurb": "Frontier models, benchmarks, reasoning",
+      "color": "#00e5ff"
+    },
+    "compute": {
+      "label": "Compute",
+      "score": 59.1,
+      "blurb": "Chips, fabs, datacenters, energy",
+      "color": "#ff6d00"
+    },
+    "capital": {
+      "label": "Capital",
+      "score": 58.1,
+      "blurb": "Funding, valuations, revenue, M&A",
+      "color": "#ffd600"
+    },
+    "embodiment": {
+      "label": "Embodiment",
+      "score": 67.9,
+      "blurb": "Robots, humanoids, drones, autonomy",
+      "color": "#00e676"
+    },
+    "agency": {
+      "label": "Agency",
+      "score": 84.3,
+      "blurb": "Agents, tool use, open weights, self-improvement",
+      "color": "#d500f9"
+    },
+    "security": {
+      "label": "Security",
+      "score": 33.9,
+      "blurb": "Safety, alignment, cyber, regulation",
+      "color": "#ff1744"
+    },
+    "space": {
+      "label": "Space",
+      "score": 70.3,
+      "blurb": "Launches, orbital compute, the frontier up",
+      "color": "#2979ff"
+    },
+    "culture": {
+      "label": "Culture",
+      "score": 64.6,
+      "blurb": "Society metabolizing the change",
+      "color": "#ffab91"
+    }
+  },
+  "graph": {
+    "stories": 3955,
+    "entities": 155,
+    "briefs": 69,
+    "edges": 10719
+  },
+  "brief": {
+    "date": "2026-11-05",
+    "model": "heuristic",
+    "n_items": 14,
+    "text": "# Welcome to November 5, 2026\n\nThe Singularity Index reads **74.1/100** \u2014 Singularity. 6631 days to 2045-01-01. 157 signals crossed the wire in the last cycle.\n\n[PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World](https://arxiv.org/abs/2611.06768v1) \u2014 *arXiv cs.RO* \u00b7 capability, agency, compute, embodiment\n\n[Falcon 9 Block 5 | USSF-317 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/76617033-4dc0-4448-b50c-e5b0d5a18539/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-627 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/) \u2014 *Launch Library* \u00b7 space\n\n[Atlas V N22 | Starliner-1 \u2014 United Launch Alliance](https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/) \u2014 *Launch Library* \u00b7 embodiment, space\n\n[Falcon Heavy | Griffin Mission One \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/) \u2014 *Launch Library* \u00b7 space\n\n[Electron | The Mountain God Rises (iQPS Launch 10) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/db3500ac-965b-4ad8-b417-cb8d8d005586/) \u2014 *Launch Library* \u00b7 space, culture\n\n[Daybreak Red is now available in AWS GovCloud (US-East)](https://openai.com/index/daybreak-red-aws-govcloud) \u2014 *OpenAI* \u00b7 capability, security, agency\n\n[Qualcomm is betting big on data centers as smartphone sales sink](https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers) \u2014 *The Verge AI* \u00b7 compute, capital, culture\n\n[Sam Altman addresses RAM comments: people should \u2018put as much as they want in their computers\u2019](https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments) \u2014 *The Verge AI* \u00b7 capital, culture, compute\n\n\n*Heuristic edition \u2014 local LLM offline.*",
+    "created_at": "2026-11-05T06:45:42.559834+00:00"
+  },
+  "feeds": {
+    "verge-ai": {
+      "ok": true,
+      "items": 10,
+      "last_fetch": "2026-11-05T11:45:10.014346+00:00",
+      "error": null
+    },
+    "arxiv-cs-lg": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-05T11:45:09.902194+00:00",
+      "error": null
+    },
+    "arxiv-cs-ai": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-05T11:45:09.979340+00:00",
+      "error": null
+    },
+    "launches": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-05T11:45:10.034797+00:00",
+      "error": null
+    },
+    "ars": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-05T11:45:10.878369+00:00",
+      "error": null
+    },
+    "arxiv-cs-cl": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-05T11:45:09.925814+00:00",
+      "error": null
+    },
+    "mit-tr-ai": {
+      "ok": true,
+      "items": 10,
+      "last_fetch": "2026-11-05T11:45:09.852036+00:00",
+      "error": null
+    },
+    "interconnects": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-05T11:45:11.440644+00:00",
+      "error": null
+    },
+    "import-ai": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-05T11:45:11.143180+00:00",
+      "error": null
+    },
+    "openai": {
+      "ok": true,
+      "items": 25,
+      "last_fetch": "2026-11-05T11:45:10.805241+00:00",
+      "error": null
+    },
+    "deepmind": {
+      "ok": true,
+      "items": 25,
+      "last_fetch": "2026-11-05T11:45:10.093894+00:00",
+      "error": null
+    },
+    "venturebeat-ai": {
+      "ok": false,
+      "items": 0,
+      "last_fetch": "2026-11-05T11:45:10.016256+00:00",
+      "error": "temporarily unavailable"
+    },
+    "arxiv-cs-ro": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-05T11:45:09.949976+00:00",
+      "error": null
+    },
+    "hn-ai": {
+      "ok": true,
+      "items": 71,
+      "last_fetch": "2026-11-05T11:45:19.189768+00:00",
+      "error": null
+    },
+    "gdelt-ai": {
+      "ok": false,
+      "items": 0,
+      "last_fetch": "2026-11-05T11:45:41.158151+00:00",
+      "error": "temporarily unavailable"
+    }
+  },
+  "convergence": [
+    {
+      "name": "Amazon",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "agency",
+        "compute",
+        "capital",
+        "culture",
+        "security"
+      ],
+      "stories": 5,
+      "heat": 30.816000000000003
+    },
+    {
+      "name": "OpenAI",
+      "type": "org",
+      "vecs": [
+        "agency",
+        "capability",
+        "culture",
+        "capital",
+        "compute"
+      ],
+      "stories": 15,
+      "heat": 83.51799999999997
+    },
+    {
+      "name": "Meta",
+      "type": "org",
+      "vecs": [
+        "compute",
+        "capital",
+        "culture",
+        "capability",
+        "agency"
+      ],
+      "stories": 2,
+      "heat": 14.045
+    },
+    {
+      "name": "Google",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "capital",
+        "culture",
+        "agency"
+      ],
+      "stories": 5,
+      "heat": 35.13
+    },
+    {
+      "name": "ChatGPT",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "agency",
+        "culture",
+        "capital"
+      ],
+      "stories": 5,
+      "heat": 25.018
+    },
+    {
+      "name": "GPT-6",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "agency",
+        "compute",
+        "embodiment"
+      ],
+      "stories": 3,
+      "heat": 22.947999999999997
+    },
+    {
+      "name": "Transformer",
+      "type": "tech",
+      "vecs": [
+        "agency",
+        "capability",
+        "embodiment"
+      ],
+      "stories": 5,
+      "heat": 18.074
+    },
+    {
+      "name": "Gemini",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "capital",
+        "culture"
+      ],
+      "stories": 2,
+      "heat": 17.112000000000002
+    },
+    {
+      "name": "Uber",
+      "type": "org",
+      "vecs": [
+        "agency",
+        "capital",
+        "culture"
+      ],
+      "stories": 2,
+      "heat": 16.638
+    },
+    {
+      "name": "New York",
+      "type": "place",
+      "vecs": [
+        "culture",
+        "capability",
+        "capital"
+      ],
+      "stories": 2,
+      "heat": 13.957999999999998
+    },
+    {
+      "name": "GPT-5",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "security",
+        "agency"
+      ],
+      "stories": 1,
+      "heat": 8.499
+    },
+    {
+      "name": "Sam Altman",
+      "type": "person",
+      "vecs": [
+        "capital",
+        "culture",
+        "compute"
+      ],
+      "stories": 1,
+      "heat": 8.499
+    }
+  ],
+  "last_ingest": {
+    "stats": {
+      "fetched": 269,
+      "new": 0,
+      "persisted": 0
+    },
+    "si": 72.7,
+    "brief_model": null,
+    "errors": [
+      "venturebeat-ai: temporarily unavailable",
+      "gdelt-ai: temporarily unavailable"
+    ]
+  }
+}

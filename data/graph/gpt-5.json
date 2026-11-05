@@ -1,0 +1,1 @@
+{"nodes":[{"id":"9e0948bf3d689a5d","label":"Daybreak Red is now available in AWS GovCloud (US-East)","kind":"story","url":"https://openai.com/index/daybreak-red-aws-govcloud"},{"id":"ent-Amazon","label":"Amazon","kind":"entity"}],"edges":[{"from":"9e0948bf3d689a5d","to":"ent-Amazon"},{"from":"ent-GPT-5","to":"ent-Amazon"}],"loop_editions":[]}
