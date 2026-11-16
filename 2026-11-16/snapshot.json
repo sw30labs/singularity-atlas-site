@@ -1,0 +1,318 @@
+{
+  "generated_utc": "2026-11-16T12:00:06.560420+00:00",
+  "generated_et": "2026-11-16 07:00 EST",
+  "si": 27.6,
+  "epoch": "Slow Takeoff",
+  "n_stories_24h": 28,
+  "countdown": {
+    "days": 6620,
+    "years": 18.12,
+    "target": "2045-01-01"
+  },
+  "vectors": {
+    "capability": {
+      "label": "Capability",
+      "score": 20.6,
+      "blurb": "Frontier models, benchmarks, reasoning",
+      "color": "#00e5ff"
+    },
+    "compute": {
+      "label": "Compute",
+      "score": 21.9,
+      "blurb": "Chips, fabs, datacenters, energy",
+      "color": "#ff6d00"
+    },
+    "capital": {
+      "label": "Capital",
+      "score": 26.7,
+      "blurb": "Funding, valuations, revenue, M&A",
+      "color": "#ffd600"
+    },
+    "embodiment": {
+      "label": "Embodiment",
+      "score": 9.1,
+      "blurb": "Robots, humanoids, drones, autonomy",
+      "color": "#00e676"
+    },
+    "agency": {
+      "label": "Agency",
+      "score": 20.6,
+      "blurb": "Agents, tool use, open weights, self-improvement",
+      "color": "#d500f9"
+    },
+    "security": {
+      "label": "Security",
+      "score": 0.0,
+      "blurb": "Safety, alignment, cyber, regulation",
+      "color": "#ff1744"
+    },
+    "space": {
+      "label": "Space",
+      "score": 63.8,
+      "blurb": "Launches, orbital compute, the frontier up",
+      "color": "#2979ff"
+    },
+    "culture": {
+      "label": "Culture",
+      "score": 26.7,
+      "blurb": "Society metabolizing the change",
+      "color": "#ffab91"
+    }
+  },
+  "graph": {
+    "stories": 4756,
+    "entities": 157,
+    "briefs": 80,
+    "edges": 12557
+  },
+  "brief": {
+    "date": "2026-11-16",
+    "model": "heuristic",
+    "n_items": 14,
+    "text": "# Welcome to November 16, 2026\n\nThe Singularity Index reads **25.7/100** \u2014 Slow Takeoff. 6620 days to 2045-01-01. 27 signals crossed the wire in the last cycle.\n\n[Atlas V N22 | Starliner-1 \u2014 United Launch Alliance](https://ll.thespacedevs.com/2.2.0/launch/07e945c1-2ec6-4d29-a500-1afbe920440f/) \u2014 *Launch Library* \u00b7 embodiment, space\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon Heavy | Griffin Mission One \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67/) \u2014 *Launch Library* \u00b7 space\n\n[Congress wants to tighten export rules on AI chips after Nvidia spy scandal](https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china) \u2014 *The Verge AI* \u00b7 compute, capital, culture\n\n[Falcon 9 Block 5 | USSF-266 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/460d9db7-eaf6-4cd9-b095-cff433534c09/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | OneWeb 21 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c/) \u2014 *Launch Library* \u00b7 space\n\n[Jensen Huang might be plotting a return and more of the latest Nvidia drama](https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed) \u2014 *The Verge AI* \u00b7 culture, capital, compute\n\n[Electron | StriX Launch 14 \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/2093e4fc-ac8c-4296-a1b5-deececee6a72/) \u2014 *Launch Library* \u00b7 space\n\n[An overview of Jensen Huang\u2019s messy days](https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation) \u2014 *The Verge AI* \u00b7 culture, compute, capital\n\n[Falcon 9 Block 5 | Telesat Lightspeed 1 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/) \u2014 *Launch Library* \u00b7 space\n\n\n*Heuristic edition \u2014 local LLM offline.*",
+    "created_at": "2026-11-16T05:30:54.376171+00:00"
+  },
+  "feeds": {
+    "verge-ai": {
+      "ok": true,
+      "items": 10,
+      "last_fetch": "2026-11-16T11:45:09.813746+00:00",
+      "error": null
+    },
+    "arxiv-cs-lg": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-16T11:45:09.724062+00:00",
+      "error": null
+    },
+    "arxiv-cs-ai": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-16T11:45:09.700092+00:00",
+      "error": null
+    },
+    "launches": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-16T11:45:10.089268+00:00",
+      "error": null
+    },
+    "ars": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-16T11:45:11.265807+00:00",
+      "error": null
+    },
+    "arxiv-cs-cl": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-16T11:45:09.680557+00:00",
+      "error": null
+    },
+    "mit-tr-ai": {
+      "ok": true,
+      "items": 10,
+      "last_fetch": "2026-11-16T11:45:09.628759+00:00",
+      "error": null
+    },
+    "interconnects": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-16T11:45:11.126087+00:00",
+      "error": null
+    },
+    "import-ai": {
+      "ok": true,
+      "items": 20,
+      "last_fetch": "2026-11-16T11:45:10.069680+00:00",
+      "error": null
+    },
+    "openai": {
+      "ok": true,
+      "items": 25,
+      "last_fetch": "2026-11-16T11:45:10.793974+00:00",
+      "error": null
+    },
+    "deepmind": {
+      "ok": true,
+      "items": 25,
+      "last_fetch": "2026-11-16T11:45:10.858259+00:00",
+      "error": null
+    },
+    "venturebeat-ai": {
+      "ok": false,
+      "items": 0,
+      "last_fetch": "2026-11-16T11:45:09.657562+00:00",
+      "error": "temporarily unavailable"
+    },
+    "arxiv-cs-ro": {
+      "ok": true,
+      "items": 12,
+      "last_fetch": "2026-11-16T11:45:10.115014+00:00",
+      "error": null
+    },
+    "hn-ai": {
+      "ok": true,
+      "items": 71,
+      "last_fetch": "2026-11-16T11:45:13.283570+00:00",
+      "error": null
+    },
+    "gdelt-ai": {
+      "ok": true,
+      "items": 40,
+      "last_fetch": "2026-11-16T11:45:43.165908+00:00",
+      "error": null
+    }
+  },
+  "convergence": [
+    {
+      "name": "OpenAI",
+      "type": "org",
+      "vecs": [
+        "agency",
+        "capability",
+        "capital",
+        "culture",
+        "security"
+      ],
+      "stories": 5,
+      "heat": 31.875
+    },
+    {
+      "name": "Claude",
+      "type": "model",
+      "vecs": [
+        "capability",
+        "agency",
+        "embodiment",
+        "capital",
+        "culture"
+      ],
+      "stories": 3,
+      "heat": 26.855999999999998
+    },
+    {
+      "name": "ChatGPT",
+      "type": "model",
+      "vecs": [
+        "agency",
+        "capability",
+        "capital",
+        "culture"
+      ],
+      "stories": 3,
+      "heat": 18.599
+    },
+    {
+      "name": "Anthropic",
+      "type": "org",
+      "vecs": [
+        "capital",
+        "capability",
+        "culture",
+        "agency"
+      ],
+      "stories": 1,
+      "heat": 11.776
+    },
+    {
+      "name": "Jensen Huang",
+      "type": "person",
+      "vecs": [
+        "culture",
+        "capital",
+        "compute"
+      ],
+      "stories": 6,
+      "heat": 49.868999999999986
+    },
+    {
+      "name": "NVIDIA",
+      "type": "org",
+      "vecs": [
+        "culture",
+        "capital",
+        "compute"
+      ],
+      "stories": 6,
+      "heat": 49.868999999999986
+    },
+    {
+      "name": "GPT-6",
+      "type": "model",
+      "vecs": [
+        "agency",
+        "capability",
+        "embodiment"
+      ],
+      "stories": 3,
+      "heat": 20.686000000000003
+    },
+    {
+      "name": "Sam Altman",
+      "type": "person",
+      "vecs": [
+        "capital",
+        "culture",
+        "security"
+      ],
+      "stories": 1,
+      "heat": 8.67
+    },
+    {
+      "name": "Figure AI",
+      "type": "org",
+      "vecs": [
+        "capital",
+        "culture",
+        "security"
+      ],
+      "stories": 1,
+      "heat": 8.67
+    },
+    {
+      "name": "European Union",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "security",
+        "agency"
+      ],
+      "stories": 1,
+      "heat": 7.455
+    },
+    {
+      "name": "xAI",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "security",
+        "agency"
+      ],
+      "stories": 1,
+      "heat": 7.455
+    },
+    {
+      "name": "NASA",
+      "type": "org",
+      "vecs": [
+        "space",
+        "embodiment"
+      ],
+      "stories": 3,
+      "heat": 11.878
+    }
+  ],
+  "last_ingest": {
+    "stats": {
+      "fetched": 309,
+      "new": 0,
+      "persisted": 0
+    },
+    "si": 27.6,
+    "brief_model": null,
+    "errors": [
+      "venturebeat-ai: temporarily unavailable"
+    ]
+  }
+}
