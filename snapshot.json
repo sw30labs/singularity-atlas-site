@@ -1,166 +1,166 @@
 {
-  "generated_utc": "2026-11-21T12:00:06.568940+00:00",
-  "generated_et": "2026-11-21 07:00 EST",
-  "si": 27.6,
+  "generated_utc": "2026-11-22T12:00:06.169330+00:00",
+  "generated_et": "2026-11-22 07:00 EST",
+  "si": 17.3,
   "epoch": "Slow Takeoff",
-  "n_stories_24h": 25,
+  "n_stories_24h": 19,
   "countdown": {
-    "days": 6615,
+    "days": 6614,
     "years": 18.11,
     "target": "2045-01-01"
   },
   "vectors": {
     "capability": {
       "label": "Capability",
-      "score": 26.5,
+      "score": 9.0,
       "blurb": "Frontier models, benchmarks, reasoning",
       "color": "#00e5ff"
     },
     "compute": {
       "label": "Compute",
-      "score": 13.3,
+      "score": 0.0,
       "blurb": "Chips, fabs, datacenters, energy",
       "color": "#ff6d00"
     },
     "capital": {
       "label": "Capital",
-      "score": 25.6,
+      "score": 20.1,
       "blurb": "Funding, valuations, revenue, M&A",
       "color": "#ffd600"
     },
     "embodiment": {
       "label": "Embodiment",
-      "score": 0.0,
+      "score": 7.4,
       "blurb": "Robots, humanoids, drones, autonomy",
       "color": "#00e676"
     },
     "agency": {
       "label": "Agency",
-      "score": 21.3,
+      "score": 0.0,
       "blurb": "Agents, tool use, open weights, self-improvement",
       "color": "#d500f9"
     },
     "security": {
       "label": "Security",
-      "score": 8.3,
+      "score": 0.0,
       "blurb": "Safety, alignment, cyber, regulation",
       "color": "#ff1744"
     },
     "space": {
       "label": "Space",
-      "score": 58.8,
+      "score": 55.4,
       "blurb": "Launches, orbital compute, the frontier up",
       "color": "#2979ff"
     },
     "culture": {
       "label": "Culture",
-      "score": 36.7,
+      "score": 23.8,
       "blurb": "Society metabolizing the change",
       "color": "#ffab91"
     }
   },
   "graph": {
-    "stories": 5381,
+    "stories": 5394,
     "entities": 157,
-    "briefs": 85,
-    "edges": 13951
+    "briefs": 86,
+    "edges": 13985
   },
   "brief": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "model": "heuristic",
     "n_items": 14,
-    "text": "# Welcome to November 21, 2026\n\nThe Singularity Index reads **27.6/100** \u2014 Slow Takeoff. 6615 days to 2045-01-01. 25 signals crossed the wire in the last cycle.\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-380 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/b0d27def-0a88-44c3-a947-1fd5b8503e2c/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-317 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/76617033-4dc0-4448-b50c-e5b0d5a18539/) \u2014 *Launch Library* \u00b7 space\n\n[Signal is blocking Gemini and Siri AI from reading your screen](https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app) \u2014 *The Verge AI* \u00b7 capability, culture, agency, capital\n\n[Ariane 64 Block 2 | Amazon Leo (LE-04) \u2014 Arianespace](https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-266 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/460d9db7-eaf6-4cd9-b095-cff433534c09/) \u2014 *Launch Library* \u00b7 space\n\n[Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem) \u2014 *The Verge AI* \u00b7 capability, capital, culture\n\n[Electron | Night Owls Never Sleep (StriX Launch 14) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/2093e4fc-ac8c-4296-a1b5-deececee6a72/) \u2014 *Launch Library* \u00b7 space\n\n[Combatting adversarial distillation](https://openai.com/index/combatting-adversarial-distillation) \u2014 *OpenAI* \u00b7 agency, capability, security\n\n[Falcon 9 Block 5 | NROL-136 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/951a341f-236b-42fe-a667-4ab2fcf36eac/) \u2014 *Launch Library* \u00b7 space\n\n\n*Heuristic edition \u2014 local LLM offline.*",
-    "created_at": "2026-11-21T05:10:55.846244+00:00"
+    "text": "# Welcome to November 22, 2026\n\nThe Singularity Index reads **17.1/100** \u2014 Slow Takeoff. 6614 days to 2045-01-01. 19 signals crossed the wire in the last cycle.\n\n[Falcon 9 Block 5 | Cygnus CRS-2 NG-25 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c31f736ac/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-380 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/b0d27def-0a88-44c3-a947-1fd5b8503e2c/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-317 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/76617033-4dc0-4448-b50c-e5b0d5a18539/) \u2014 *Launch Library* \u00b7 space\n\n[Can Anthropic afford to put safety first?](https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure) \u2014 *The Verge AI* \u00b7 capability, culture, capital\n\n[Electron | Night Owls Never Sleep (StriX Launch 14) \u2014 Rocket Lab](https://ll.thespacedevs.com/2.2.0/launch/2093e4fc-ac8c-4296-a1b5-deececee6a72/) \u2014 *Launch Library* \u00b7 space\n\n[Ariane 64 Block 2 | Amazon Leo (LE-04) \u2014 Arianespace](https://ll.thespacedevs.com/2.2.0/launch/7bdc412b-c965-4517-a131-f57a01189803/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | USSF-266 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/460d9db7-eaf6-4cd9-b095-cff433534c09/) \u2014 *Launch Library* \u00b7 space\n\n[Falcon 9 Block 5 | NROL-136 \u2014 SpaceX](https://ll.thespacedevs.com/2.2.0/launch/951a341f-236b-42fe-a667-4ab2fcf36eac/) \u2014 *Launch Library* \u00b7 space\n\n[Spectrum | AT-Astra and Others (Spectrum Flight 3) \u2014 Isar Aerospace](https://ll.thespacedevs.com/2.2.0/launch/dff42a2e-f047-48d7-b260-3888d3a4fe33/) \u2014 *Launch Library* \u00b7 space\n\n[Mir | Demo Flight \u2014 Agency for Defense Development](https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/) \u2014 *Launch Library* \u00b7 space\n\n\n*Heuristic edition \u2014 local LLM offline.*",
+    "created_at": "2026-11-22T02:10:54.284189+00:00"
   },
   "feeds": {
     "verge-ai": {
       "ok": true,
       "items": 10,
-      "last_fetch": "2026-11-21T11:55:23.922210+00:00",
+      "last_fetch": "2026-11-22T11:55:23.942186+00:00",
       "error": null
     },
     "arxiv-cs-lg": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-21T11:55:23.913728+00:00",
+      "last_fetch": "2026-11-22T11:55:23.945923+00:00",
       "error": null
     },
     "arxiv-cs-ai": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-21T11:55:23.865714+00:00",
+      "last_fetch": "2026-11-22T11:55:23.949632+00:00",
       "error": null
     },
     "launches": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-21T11:55:25.242182+00:00",
+      "last_fetch": "2026-11-22T11:55:29.936881+00:00",
       "error": null
     },
     "ars": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-21T11:55:23.944001+00:00",
+      "last_fetch": "2026-11-22T11:55:23.925176+00:00",
       "error": null
     },
     "arxiv-cs-cl": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-21T11:55:23.909803+00:00",
+      "last_fetch": "2026-11-22T11:55:23.912007+00:00",
       "error": null
     },
     "mit-tr-ai": {
       "ok": true,
       "items": 10,
-      "last_fetch": "2026-11-21T11:55:23.892135+00:00",
+      "last_fetch": "2026-11-22T11:55:23.890968+00:00",
       "error": null
     },
     "interconnects": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-21T11:55:24.177480+00:00",
+      "last_fetch": "2026-11-22T11:55:24.182477+00:00",
       "error": null
     },
     "import-ai": {
       "ok": true,
       "items": 20,
-      "last_fetch": "2026-11-21T11:55:23.990258+00:00",
+      "last_fetch": "2026-11-22T11:55:24.129206+00:00",
       "error": null
     },
     "openai": {
       "ok": true,
       "items": 25,
-      "last_fetch": "2026-11-21T11:55:24.123427+00:00",
+      "last_fetch": "2026-11-22T11:55:24.083278+00:00",
       "error": null
     },
     "deepmind": {
       "ok": true,
       "items": 25,
-      "last_fetch": "2026-11-21T11:55:23.931761+00:00",
+      "last_fetch": "2026-11-22T11:55:24.193220+00:00",
       "error": null
     },
     "venturebeat-ai": {
       "ok": false,
       "items": 0,
-      "last_fetch": "2026-11-21T11:55:23.916654+00:00",
+      "last_fetch": "2026-11-22T11:55:23.912372+00:00",
       "error": "temporarily unavailable"
     },
     "arxiv-cs-ro": {
       "ok": true,
       "items": 12,
-      "last_fetch": "2026-11-21T11:55:23.900740+00:00",
+      "last_fetch": "2026-11-22T11:55:23.931194+00:00",
       "error": null
     },
     "hn-ai": {
       "ok": true,
       "items": 71,
-      "last_fetch": "2026-11-21T11:55:25.446921+00:00",
+      "last_fetch": "2026-11-22T11:55:25.530769+00:00",
       "error": null
     },
     "gdelt-ai": {
       "ok": false,
       "items": 0,
-      "last_fetch": "2026-11-21T11:55:51.614981+00:00",
+      "last_fetch": "2026-11-22T11:55:52.901012+00:00",
       "error": "temporarily unavailable"
     }
   },
@@ -169,107 +169,94 @@
       "name": "Anthropic",
       "type": "org",
       "vecs": [
-        "agency",
-        "culture",
         "capability",
         "capital",
+        "compute",
         "space",
-        "security",
-        "compute"
-      ],
-      "stories": 6,
-      "heat": 47.921
-    },
-    {
-      "name": "OpenAI",
-      "type": "org",
-      "vecs": [
-        "agency",
-        "capability",
-        "security",
-        "compute",
-        "capital",
-        "culture"
-      ],
-      "stories": 5,
-      "heat": 41.397
-    },
-    {
-      "name": "Hugging Face",
-      "type": "org",
-      "vecs": [
-        "security",
-        "agency",
-        "capability",
-        "compute",
-        "capital",
-        "culture"
-      ],
-      "stories": 2,
-      "heat": 23.935
-    },
-    {
-      "name": "Google",
-      "type": "org",
-      "vecs": [
-        "capital",
         "culture",
-        "capability",
-        "agency",
-        "embodiment"
-      ],
-      "stories": 4,
-      "heat": 36.168
-    },
-    {
-      "name": "Meta",
-      "type": "org",
-      "vecs": [
-        "capital",
-        "agency",
-        "culture",
-        "capability",
-        "compute"
-      ],
-      "stories": 3,
-      "heat": 18.023
-    },
-    {
-      "name": "Dario Amodei",
-      "type": "person",
-      "vecs": [
-        "agency",
-        "security",
-        "compute",
-        "capital",
-        "culture"
-      ],
-      "stories": 1,
-      "heat": 16.48
-    },
-    {
-      "name": "World Models",
-      "type": "tech",
-      "vecs": [
-        "agency",
-        "capability",
-        "embodiment",
-        "capital"
+        "agency"
       ],
       "stories": 7,
-      "heat": 40.117999999999995
+      "heat": 58.13699999999999
     },
     {
       "name": "Gemini",
       "type": "model",
       "vecs": [
         "capability",
+        "capital",
+        "compute",
+        "space",
         "culture",
-        "agency",
-        "capital"
+        "agency"
       ],
-      "stories": 4,
-      "heat": 33.759
+      "stories": 3,
+      "heat": 40.756
+    },
+    {
+      "name": "Google",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "capital",
+        "compute",
+        "space",
+        "culture",
+        "agency"
+      ],
+      "stories": 3,
+      "heat": 33.802
+    },
+    {
+      "name": "OpenAI",
+      "type": "org",
+      "vecs": [
+        "capability",
+        "capital",
+        "compute",
+        "space",
+        "agency",
+        "security"
+      ],
+      "stories": 3,
+      "heat": 30.911
+    },
+    {
+      "name": "SpaceX",
+      "type": "org",
+      "vecs": [
+        "space",
+        "capability",
+        "capital",
+        "compute",
+        "culture"
+      ],
+      "stories": 10,
+      "heat": 49.48100000000001
+    },
+    {
+      "name": "Dario Amodei",
+      "type": "person",
+      "vecs": [
+        "capability",
+        "capital",
+        "compute",
+        "space"
+      ],
+      "stories": 1,
+      "heat": 17.864
+    },
+    {
+      "name": "San Francisco",
+      "type": "place",
+      "vecs": [
+        "capability",
+        "capital",
+        "compute",
+        "space"
+      ],
+      "stories": 1,
+      "heat": 17.864
     },
     {
       "name": "ChatGPT",
@@ -280,42 +267,52 @@
         "capital",
         "culture"
       ],
-      "stories": 3,
-      "heat": 17.191
+      "stories": 2,
+      "heat": 9.736
     },
     {
       "name": "Claude",
       "type": "model",
       "vecs": [
         "capability",
+        "culture",
+        "capital"
+      ],
+      "stories": 2,
+      "heat": 16.956000000000003
+    },
+    {
+      "name": "GPT-6",
+      "type": "model",
+      "vecs": [
+        "agency",
+        "capability",
+        "embodiment"
+      ],
+      "stories": 2,
+      "heat": 14.551000000000002
+    },
+    {
+      "name": "Apple",
+      "type": "org",
+      "vecs": [
         "capital",
         "culture",
         "agency"
       ],
       "stories": 2,
-      "heat": 14.214
+      "heat": 13.449
     },
     {
-      "name": "NVIDIA",
+      "name": "Meta",
       "type": "org",
       "vecs": [
         "capital",
-        "compute",
+        "agency",
         "culture"
       ],
-      "stories": 4,
-      "heat": 33.738
-    },
-    {
-      "name": "SpaceX",
-      "type": "org",
-      "vecs": [
-        "space",
-        "capital",
-        "culture"
-      ],
-      "stories": 7,
-      "heat": 25.961
+      "stories": 1,
+      "heat": 8.499
     }
   ],
   "last_ingest": {
@@ -325,7 +322,7 @@
       "persisted": 0,
       "launches_retired": 0
     },
-    "si": 27.6,
+    "si": 17.3,
     "brief_model": null,
     "errors": [
       "venturebeat-ai: temporarily unavailable",
